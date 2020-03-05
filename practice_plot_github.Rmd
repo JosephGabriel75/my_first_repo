@@ -14,12 +14,11 @@ library(tidyverse)
 
 ```{r}
  ggplot(iris, aes(x = Petal.Length)) + 
-  geom_histogram(color = "Yellow", fill = "red" , bins = 45) + 
+  geom_histogram(color = "Blue", fill = "Brown" , bins = 45) + 
   theme_classic() +
  labs(x = "Petal Length (cm)", y = "Count", title = "WHAT UP") -> plot1
 ggsave("practice_plot.png", plot1, height = 4,
        width = 6) 
 
-            
 ```
 
